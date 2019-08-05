@@ -11,7 +11,7 @@
 - control over decimal places for both axis and tooltip values
 - CSS variables are provided for easily controlling chart colors, backgrounds and font sizes
 
-Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 136 KiB along with calling a CDN for incorporating the Vue framework.
+**bar-chart-comp-d3** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  Two demo folders are provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` files to bundle together  **bar-chart-comp-d3** along with its dependencies for a couple of simple applications.  Further details are provided below for running the demos.
 
 ## Props
 
@@ -76,7 +76,7 @@ The **css_variables** prop is a javascript object that contains any combination 
 
 ## Demonstration
 
-Two demonstrations of **bar-chart-comp-d3** are provided in the folders named `demo_1/dist`, and `demo_2/dist`.  They can be viewed by hosting their respective `index.html`files.  demo_1 is a redo of [Grouped Stacked Bar Chart](https://beta.observablehq.com/@mbostock/d3-stacked-bar-chart)  from Mike Bostock's array of D3 examples.  The demo folders contain a `package.json` file that can be used to setup dependencies for these demos and as a template for other applications using  **bar-chart-comp-d3**.The following is the setup for this chart contained in the `App.vue` file where `axis` is a reference to the `axis` in our above example:
+Two demonstrations of **bar-chart-comp-d3** are provided in the folders named `demo_1/dist`, and `demo_2/dist`.  They can be viewed by hosting their respective `index.html`files.  demo_1 is a redo of [Grouped Stacked Bar Chart](https://beta.observablehq.com/@mbostock/d3-stacked-bar-chart)  from Mike Bostock's array of D3 examples.  The demo folders contain a `package.json` file that can be used to setup dependencies for these demos and as a template for other applications using  **bar-chart-comp-d3**. The following is the setup for this chart contained in the `App.vue` file where `axis` is a reference to the `axis` in our above example:
 
 ```
 	<bar-chart-comp-d3>
@@ -117,4 +117,4 @@ Note how the `bar-chart-comp-d3` tag wraps around the `<svg>` element.  It is im
     }
 ```
 
-To view the demos, as a suggestion install [http-server](https://www.npmjs.com/package/http-server "http-server") globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **bar-chart-comp-d3** `dist` directory.  From a browser enter the url: `localhost:8080/`.
+To view the demos, as a suggestion install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **bar-chart-comp-d3** `dist` directory.  From a browser enter the url: `localhost:8080/`.

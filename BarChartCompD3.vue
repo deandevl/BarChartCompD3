@@ -55,7 +55,7 @@
 <script>
   import ButtonComp from 'buttoncomp';
   import InputComp from 'inputcomp';
-  import {define_scale,minmax,calculate_scale,color_scale} from 'd3ScaleModule';
+  import {define_scale,minmax,calculate_scale,color_scale} from 'd3scalemodule';
   import {define_axis,update_axis} from 'd3axismodule';
   import {make_draggable,init_chart} from 'd3utilmodule';
   import {format} from 'd3-format';

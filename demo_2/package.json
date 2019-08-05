@@ -1,0 +1,46 @@
+{
+  "name": "barchartcompd3-demo2",
+  "version": "1.0.0",
+  "description": "Demo 2 of BarChartCompD3",
+  "main": "src/app.js",
+  "browserslist": [
+    "since 2017-06"
+  ],
+  "scripts": {
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deandevl/BarChartCompD3.git"
+  },
+  "keywords": [
+    "BarChartCompD3",
+    "Vue.js"
+  ],
+  "author": "Rick Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deandevl/BarChartCompD3/issues"
+  },
+  "homepage": "https://github.com/deandevl/BarChartCompD3#readme",
+  "dependencies": {
+    "barchartcompd3": "git+https://github.com/deandevl/BarChartCompD3.git",
+    "buttoncomp": "git+https://github.com/deandevl/ButtonComp.git",
+    "inputcomp": "git+https://github.com/deandevl/InputComp.git",
+    "d3-format": "^1.3.2",
+    "d3-selection": "^1.3.2",
+    "d3-shape": "^1.2.2",
+    "d3-array": "^2.0.3",
+    "d3axismodule": "git+https://github.com/deandevl/d3AxisModule.git",
+    "d3fetchmodule": "git+https://github.com/deandevl/d3FetchModule.git",
+    "d3scalemodule": "git+https://github.com/deandevl/d3ScaleModule.git",
+    "d3utilmodule": "git+https://github.com/deandevl/d3UtilModule.git",
+    "vue": "^2.5.22"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "less": "^3.9.0",
+    "parcel-bundler": "^1.12.3",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
